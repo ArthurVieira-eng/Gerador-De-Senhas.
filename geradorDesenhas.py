@@ -1,6 +1,8 @@
 #Gerador de senhas com ou sem caracteres do tip letras 
 import random
-import string 
+import string
+#import mysql.connector
+#import bcrypt
 print('Bem Vindo ao Gerador de senhas automatico:') 
 escolha = int(input('Escolha 1 se deseja uma senha com apenas caracteres, ou escolha 2 se deseja alfanuméricos:'))
 if escolha == 1:
